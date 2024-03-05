@@ -1,0 +1,8 @@
+Date,Operator,Machine,Item,Setup Time,Human Cycle Time,Cycle,Total Quantity,Job Time,Operation Number,Notes,Start Time,End Time
+
+Cisco,CMA,9/16 12 LBAR 3/32,5,4,30,254,1,Machine slow
+Cisco,CMA,9/16 12 LBAR 3/32,5,4,30,254,1,Machine slow
+02-03-24,
+Robert,CM1A,9/32 14 CBBTSH,5,4,30,25,4,1,Machine slow,7:00,3:30
+02-03-24,Tim,DTAB,CBB 4 7/8,5,4,30,25,4,1,Machine slow,8:00,4:30
+02-04-24,Justin,MK1,1in 6 CBBT,20,35,50,50,30,5,Bad raw,5:20,6:45

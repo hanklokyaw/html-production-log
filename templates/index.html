@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Daily Machine Data Entry{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1 class="display-4">Company</h1>
+    <p class="lead">Machine Department Daily Data Entry</p>
+    <hr class="my-4" />
+    <p>
+      All the data will be saved to data at the end of each day and now allow to edit after end of the day.
+    </p>
+    <a
+      class="btn btn-warning btn-lg"
+      href="{{ url_for('operators', operator_name='default_operator') }}"
+      role="button"
+      >Show all daily records</a
+    >
+  </div>
+</div>
+
+{% endblock %}

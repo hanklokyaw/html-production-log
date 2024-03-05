@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_form %}
+
+{% block title %}Edit Activity{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+      <h1>Edit Record</h1>
+
+      {{ render_form(form, novalidate=True) }}
+
+      <p class="space-above">
+        <a href="{{ url_for('operators', operator_name=operator_name) }}">Back to Records</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
